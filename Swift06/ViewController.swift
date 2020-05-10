@@ -44,7 +44,7 @@ class ViewController: UIViewController {
             }, onCompleted: {
                 print("Observer: 1 - Event: completed")
             }, onDisposed: {
-                print("Observer: 1 - Event: disposed a")
+                print("Observer: 1 - Event: disposed b")
             })
             .disposed(by: disposeBag)
         
